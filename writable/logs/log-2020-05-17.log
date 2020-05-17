@@ -1,0 +1,441 @@
+CRITICAL - 2020-05-17 12:12:43 --> Call to a member function store() on null
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-17 12:39:55 --> Could not move file php5F1E.tmp to C:\xampp\htdocs\yt\ci4-imagecrop\writable\uploads/assets/imagens/ ()
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php5F1E.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('assets/imagens/', 'foto.jpg')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 12:40:03 --> Could not move file php7FB6.tmp to C:\xampp\htdocs\yt\ci4-imagecrop\writable\uploads/assets\imagens/ ()
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php7FB6.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('assets\\imagens/', 'foto.jpg')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 12:40:21 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(212): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs...', 'foto.jpg')
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-17 12:40:28 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(212): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs...', 'foto.jpg')
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-17 12:40:44 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(212): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs...', 'foto.jpg')
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-17 12:41:17 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 212, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(212): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(163): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs...', 'foto.jpg')
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-17 12:41:45 --> Could not move file phpD41.tmp to C:\xampp\htdocs\yt\ci4-imagecrop\writable\uploads//assets/imagens/ ()
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpD41.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('/assets/imagens...', 'foto.jpg')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 12:41:51 --> Could not move file php230C.tmp to C:\xampp\htdocs\yt\ci4-imagecrop\writable\uploads/./assets/imagens/ ()
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(187): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php230C.tmp', 'C:\\xampp\\htdocs...', '')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\HTTP\Files\UploadedFile.php(409): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...', 'foto.jpg')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(16): CodeIgniter\HTTP\Files\UploadedFile->store('./assets/imagen...', 'foto.jpg')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 12:51:14 --> Undefined variable: path
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 12:53:43 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-17 14:03:08 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Home->upload()
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-17 14:19:21 --> Undefined property: App\Controllers\Ajax\Upload::$input
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:20:41 --> Undefined property: App\Controllers\Ajax\Upload::$input
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:22:29 --> Undefined property: App\Controllers\Ajax\Upload::$input
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:22:39 --> Undefined property: App\Controllers\Ajax\Upload::$input
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:22:53 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:22:59 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:23:04 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:23:07 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:23:43 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:32:12 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ajax/upload/res...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('ajax/upload/res...')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:32:26 --> syntax error, unexpected '}'
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ajax/upload/res...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('ajax/upload/res...')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:32:33 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:32:38 --> File not found: http://localhost:8080/imagens/1589743497_f36fcb96cb567f22dbed.jpg
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(27): CodeIgniter\Images\Handlers\BaseHandler->withFile('http://localhos...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:33:06 --> File not found: http://localhost:8080/imagens/1589743984_b5796228e000e20f6908.jpg
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(27): CodeIgniter\Images\Handlers\BaseHandler->withFile('http://localhos...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:33:10 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:34:42 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ajax/upload/res...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('ajax/upload/res...')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:34:48 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ajax/upload/doU...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('ajax/upload/doU...')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:34:59 --> syntax error, unexpected '=', expecting ']'
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ajax/upload/doU...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('ajax/upload/doU...')
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:35:07 --> Call to a member function move() on null
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->doUpload()
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-17 14:40:52 --> File not found: http://localhost:8080/imagens/1589744449_1cd354d9b3861a9a9703.jpg
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('http://localhos...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('http://localhos...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(33): CodeIgniter\Images\Handlers\BaseHandler->withFile('http://localhos...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:41:07 --> File not found: 1589744466_8fb25de5df8a9b7fffb5.jpg
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('1589744466_8fb2...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('1589744466_8fb2...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(33): CodeIgniter\Images\Handlers\BaseHandler->withFile('1589744466_8fb2...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:41:10 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:41:29 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:41:35 --> File not found: -> 1589744494_2fe23396c8dc125560f5.png
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('-> 1589744494_2...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('-> 1589744494_2...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(33): CodeIgniter\Images\Handlers\BaseHandler->withFile('-> 1589744494_2...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:41:39 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:43:10 --> File not found: imagens/-> 1589744494_2fe23396c8dc125560f5.png
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('imagens/-> 1589...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('imagens/-> 1589...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(34): CodeIgniter\Images\Handlers\BaseHandler->withFile('imagens/-> 1589...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:43:13 --> Undefined index: imagem
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:43:48 --> File not found: imagens/-> 1589744494_2fe23396c8dc125560f5.png
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('imagens/-> 1589...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('imagens/-> 1589...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(36): CodeIgniter\Images\Handlers\BaseHandler->withFile('imagens/-> 1589...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:46:05 --> File not found: imagens/-> 1589744747_97b440e207bdbd5a17bc.jpg
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('imagens/-> 1589...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('imagens/-> 1589...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(35): CodeIgniter\Images\Handlers\BaseHandler->withFile('imagens/-> 1589...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:46:10 --> Undefined index: fileName
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 14:52:16 --> File not found: imagens/1589745048_831b3744d17b95cd35e0.png
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('imagens/1589745...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('imagens/1589745...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(35): CodeIgniter\Images\Handlers\BaseHandler->withFile('imagens/1589745...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 14:52:20 --> Undefined index: fileName
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 15:03:24 --> File not found: imagens/1589745751_bbf29dc4bd86971e3d92.png
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Files\File.php(74): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('imagens/1589745...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Images\Handlers\BaseHandler.php(170): CodeIgniter\Files\File->__construct('imagens/1589745...', true)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(35): CodeIgniter\Images\Handlers\BaseHandler->withFile('imagens/1589745...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-17 15:03:27 --> Undefined index: fileName
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-17 15:25:22 --> Allowed fields must be specified for model: App\Models\FotoModel
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foto...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(50): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-17 15:25:37 --> Allowed fields must be specified for model: App\Models\FotoModel
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Model.php(1234): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Foto...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Model.php(709): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\yt\ci4-imagecrop\system\Model.php(557): CodeIgniter\Model->insert(Array, false)
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(50): CodeIgniter\Model->save(Array)
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-17 15:26:06 --> syntax error, unexpected ';', expecting ']'
+#0 C:\xampp\htdocs\yt\ci4-imagecrop\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\yt\ci4-imagecrop\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Foto...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Foto...')
+#3 C:\xampp\htdocs\yt\ci4-imagecrop\app\Controllers\Ajax\Upload.php(48): spl_autoload_call('App\\Models\\Foto...')
+#4 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(914): App\Controllers\Ajax\Upload->resizeImage()
+#5 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax\Upload))
+#6 C:\xampp\htdocs\yt\ci4-imagecrop\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\yt\ci4-imagecrop\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\yt\ci4-imagecrop\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
